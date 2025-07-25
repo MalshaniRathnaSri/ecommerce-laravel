@@ -162,48 +162,7 @@
           
     <div id="main-slider"> 
         <div id="home-slider" class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="{{ asset('frontend/images/slider-1.jpg')}}" alt="slide-1" class="img-responsive">
-                <div class="slider-desc">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="slide-offers-left">
-                                    <div class="slide-offers-title"><span>Men’s</span><br/>FASHION</div>
-                                    <p>New & Fvhresh collection<br/>arraival in believe store</p>
-                                    <a href="" class="btn btn-blue">Shop now</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="slide-offers-right">
-                                    <div class="slide-offers-title"><span>Women’s</span><br/>FASHION</div>
-                                    <p>New & Fvhresh collection<br/>arraival in believe store</p>
-                                    <a href="" class="btn btn-magenta">Shop now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="{{ asset('frontend/images/slider-2.jpg')}}" alt="slide-2" class="img-responsive">
-                <div class="slider-desc">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="slide-offers-left">
-                                    <div class="slide-offers-title"><span>50% Price cut</span><br/>for online order</div>
-                                    <p>New & Fvhresh collection<br/>arraival in believe store</p>
-                                    <a href="" class="btn btn-blue">Shop now</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @include('frontend.Home.slider')
         </div>
     </div> 
     
