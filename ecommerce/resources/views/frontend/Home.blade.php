@@ -584,12 +584,7 @@
         </div>
         
         <div class="content-offers">
-            <div class="container">
-                <div class="ct-offers">
-                    <div class="ct-offers-title">Tommy Hilfiger<br/>Women’s</div>
-                    <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour</p>
-                </div>
-            </div>
+            @include('frontend.Home.postSection')
         </div>
         
         <div class="brands">

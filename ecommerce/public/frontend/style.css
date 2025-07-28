@@ -1140,9 +1140,8 @@ blockquote{
 
 
 .content-offers{
-    min-height:490px;
     width:100%;
-    background:url(images/bg-offers.jpg) no-repeat left center;
+    background:none;
     margin-bottom:100px;
     
 }
@@ -1151,28 +1150,20 @@ blockquote{
     float:right;
     text-align:left;
     padding-right:30px;
-    margin-top:70px;
+    margin-bottom:70px;
 }
 .ct-offers p{
     margin:30px 0;
     font-size:20px;
-    color: #1f1e38 ;
+    color: #dddde4 ;
     line-height: 36px;
-}
-.ct-offers .btn{
-    width:235px;
-    height:50px;
-    text-transform: uppercase;
-    padding-top:15px;
-    border-radius: 0;
-    font-size: 13px;
 }
 .ct-offers-title{
     font-family: 'Playfair Display', serif;
     font-size:44px;
     font-weight:700;
     line-height: normal;
-    color:#1f1e38 ;
+    color:#e5e4ec ;
     text-transform: uppercase;
 }
 
@@ -2595,8 +2586,8 @@ blockquote{
     z-index:10;
     width:100%;
 }
-#detail-control-3 .owl-item{
-    width:auto !important;
+#detail-control-3 .owl-item {
+    width: auto !important;
 }
 #detail-control-3 .item img{
     border:2px solid #fff;

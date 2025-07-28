@@ -3,12 +3,14 @@
 use App\Http\Controllers\admin\SliderController;
 use App\Http\Controllers\admin\PostSectionController;
 use App\Http\Controllers\ProfileController;
+use App\Models\PostModel;
 use App\Models\SliderModel;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/',function() {
     $sliders = SliderModel::all();
-    return view('frontend/Home', compact('sliders'));
+    $posts = PostModel::all();
+    return view('frontend/Home', compact('sliders','posts'));
 });
 
 Route::get('/dashboard', function () {
