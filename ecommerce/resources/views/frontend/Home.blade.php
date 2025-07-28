@@ -588,7 +588,6 @@
                 <div class="ct-offers">
                     <div class="ct-offers-title">Tommy Hilfiger<br/>Women’s</div>
                     <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour</p>
-                    <a href="" class="btn btn-blue">Discover more Product</a>
                 </div>
             </div>
         </div>
